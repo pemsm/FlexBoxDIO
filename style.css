@@ -1,15 +1,7 @@
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 300;
-    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTa-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
-  }
-
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul{
@@ -23,6 +15,11 @@ ul li a{
     font-weight: bold;
     font-size: 18px;
     line-height: 28px;
+}
+
+div img{
+    display: block;
+    width: 100%;
 }
 
 .flex-container{
@@ -42,14 +39,16 @@ header{
 
 header .list-items{
     display: flex;
-    max-width: 260px;
+    max-width: 300px;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
 }
 
 .list-items li a{
     color: #fff;
     text-decoration: none;
+    justify-content: space-between;
 }
 
 header .menu{
@@ -76,7 +75,41 @@ header .menu{
     background-color: #122a57;
     color: #fff;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 30px;
     text-decoration: none;
-    padding: 5px;
+    width: 220px;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#quem-somos{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#quem-somos h2{
+    font-size: 32px;
+    color: #122a57;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#quem-somos h2::before{
+    content: "";
+    height: 50px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: #122a57;
+    position: relative;
+
+}
+
+#quem-somos p{
+    margin-bottom: 10px;
+    width: 90%;
 }
