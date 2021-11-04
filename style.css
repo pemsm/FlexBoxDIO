@@ -1,22 +1,15 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTa-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+  }
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-}
-
-h1{
-    position: absolute;
-    width: 220px;
-    height: 28px;
-    left: 141px;
-    top: 64px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 28px;
-    color: #FFFFFF;
 }
 
 ul{
@@ -26,11 +19,64 @@ ul{
 }
 
 ul li a{
-    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .flex-container{
     display: flex;
     max-width: 992px;
     margin: auto;
+    width: 100%;
+}
+
+header{
+    background-color: #122a57;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+header .list-items{
+    display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.list-items li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header .menu{
+    justify-content: space-between;
+}
+
+.apresentacao{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao .texto-apresentacao{
+    max-height: 200px;
+}
+
+.texto-apresentacao h1{
+    color: #122a57;
+    font-size: 48px;
+    margin: 10px;
+}
+
+.texto-apresentacao a{
+    background-color: #122a57;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px;
 }
