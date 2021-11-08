@@ -4,9 +4,7 @@
 ## 💻 Projeto
 
 Projeto desenvolvido com base nas aulas do curso [Impulso React Web Developer
-][course], oferecido pela [Digital Inovation One][author]. Através dele foi desenvolvida essa página para reforçar os conhecimentos em HTML e CSS através do modelo de
-
-uma página de um agência de Turismo.
+][course], oferecido pela [Digital Inovation One][author]. Através dele foi desenvolvida essa página para reforçar os conhecimentos em HTML e CSS através do modelo de uma página de uma agência de Turismo.
 
  
 
