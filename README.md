@@ -17,22 +17,9 @@ As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 
 ## 📷 Screenshots
 
-![image-20211108202823491](C:\Users\Paulo-PC\AppData\Roaming\Typora\typora-user-images\image-20211108202823491.png)
+![image](https://user-images.githubusercontent.com/26777235/140834784-31321cf2-888a-4a78-8369-732e7f3786c1.png)
 
-
-
-![image-20211108202849459](C:\Users\Paulo-PC\AppData\Roaming\Typora\typora-user-images\image-20211108202849459.png)
-
-
-
-  ![image](https://user-images.githubusercontent.com/26777235/140833133-7365a77c-5af8-43eb-9fe2-630bc091b70d.png
-
-  ![image](https://user-images.githubusercontent.com/26777235/140833198-b2f75267-4217-4888-8d3c-770f76ea42fc.png
-
-  ![image](https://user-images.githubusercontent.com/26777235/140833230-9184ba72-38da-4048-9dd7-a4622ac3d886.png
-
-
-
+![image](https://user-images.githubusercontent.com/26777235/140834831-8b480b99-8365-4bd3-a83d-80d252bc6d35.png)
 
 [course]: https://web.digitalinnovation.one/track/impulso-react-web-developer?tab=path
 [author]: https://digitalinnovation.one/
